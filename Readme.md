@@ -21,7 +21,7 @@ A quick revision guide covering key JavaScript concepts, syntax, and examples.
 
 ---
 
-## 1️⃣ Basics
+
 JavaScript is a **lightweight**, **interpreted**, and **event-driven** programming language.
 
 ```javascript
