@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom-Projects</title>
+</head>
+<body>
+    <h2>YouTube Suscribe Button</h2>
+
+    <button onclick="
+            const buttonElement = document.querySelector('button');
+
+            if(buttonElement.innerHTML === 'Subscribe'){
+                buttonElement.innerHTML = 'Subscribed';
+                buttonElement.style.backgroundColor = 'red';
+            } else {
+                buttonElement.innerHTML = 'Subscribe';
+                buttonElement.style.backgroundColor = 'green';
+            }
+    ">Subscribe</button>
+
+    <script>
+        
+    </script>
+</body>
+</html>
